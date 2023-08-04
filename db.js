@@ -18,6 +18,7 @@
 // module.exports = pool;
 
 const { Pool } = require('pg');
+require("dotenv").config();
 const itemsPool = new Pool({
     connectionString: process.env.DBConfigLink,
     ssl: {
