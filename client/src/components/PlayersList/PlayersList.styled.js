@@ -16,7 +16,7 @@ const List = styled.ul`
 const ListItem = styled.li`
   display: flex;
   align-content: center;
-  padding: 8px;
+  padding: 6px;
   color: #f2f5f3;
   background-color: grey;
 
@@ -34,7 +34,7 @@ const Item = styled.p`
   margin:0 auto;
   text-align: center;
   color: ${(props) => (props.current ? "#6e7888" : "white")};
-  font-size: ${(props) => (props.current ? "18px" : "16px")};
+  font-size: ${(props) => (props.current ? "16px" : "14px")};
 `;
 
 export { Title, List, ListItem, Item };
